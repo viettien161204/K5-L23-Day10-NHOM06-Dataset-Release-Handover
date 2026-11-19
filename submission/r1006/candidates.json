@@ -1,0 +1,345 @@
+{
+  "candidates": [
+    {
+      "image": "000000001353",
+      "type": "instance_merge",
+      "detail": "segment person (11518px) phu 2 box cung lop",
+      "bbox": [
+        145.0,
+        199.0,
+        267.0,
+        382.0
+      ]
+    },
+    {
+      "image": "000000001353",
+      "type": "bbox_drift",
+      "detail": "person mask_in_box=0.38 iou=0.17",
+      "bbox": [
+        138.5799375,
+        198.11,
+        266.6300625,
+        382.65000000000003
+      ],
+      "pan_bbox": [
+        62.0,
+        214.0,
+        179.0,
+        357.0
+      ]
+    },
+    {
+      "image": "000000002157",
+      "type": "instance_merge",
+      "detail": "segment wine glass (4931px) phu 2 box cung lop",
+      "bbox": [
+        231.0,
+        53.0,
+        292.0,
+        201.0
+      ]
+    },
+    {
+      "image": "000000002157",
+      "type": "instance_merge",
+      "detail": "segment wine glass (4890px) phu 2 box cung lop",
+      "bbox": [
+        47.0,
+        17.0,
+        114.0,
+        161.0
+      ]
+    },
+    {
+      "image": "000000002157",
+      "type": "class_swap_or_category_swap",
+      "detail": "det=wine glass vs pan=cup (iou=0.98)",
+      "bbox": [
+        3.8403200000000037,
+        118.97992049999999,
+        63.33024,
+        214.9400575
+      ],
+      "det_class": "wine glass",
+      "pan_class": "cup"
+    },
+    {
+      "image": "000000005001",
+      "type": "instance_merge",
+      "detail": "segment person (10136px) phu 2 box cung lop",
+      "bbox": [
+        215.0,
+        88.0,
+        335.0,
+        279.0
+      ]
+    },
+    {
+      "image": "000000006771",
+      "type": "instance_merge",
+      "detail": "segment person (17309px) phu 2 box cung lop",
+      "bbox": [
+        534.0,
+        173.0,
+        640.0,
+        418.0
+      ]
+    },
+    {
+      "image": "000000006818",
+      "type": "class_swap_or_category_swap",
+      "detail": "det=microwave vs pan=toilet (iou=0.99)",
+      "bbox": [
+        186.9698495,
+        471.83008,
+        287.63979650000005,
+        527.9203200000001
+      ],
+      "det_class": "microwave",
+      "pan_class": "toilet"
+    },
+    {
+      "image": "000000007108",
+      "type": "instance_merge",
+      "detail": "segment elephant (60938px) phu 2 box cung lop",
+      "bbox": [
+        401.0,
+        77.0,
+        631.0,
+        426.0
+      ]
+    },
+    {
+      "image": "000000007816",
+      "type": "instance_merge",
+      "detail": "segment person (1217px) phu 2 box cung lop",
+      "bbox": [
+        564.0,
+        59.0,
+        587.0,
+        174.0
+      ]
+    },
+    {
+      "image": "000000009400",
+      "type": "instance_merge",
+      "detail": "segment cup (3448px) phu 2 box cung lop",
+      "bbox": [
+        251.0,
+        418.0,
+        315.0,
+        480.0
+      ]
+    },
+    {
+      "image": "000000009400",
+      "type": "bbox_drift",
+      "detail": "cup mask_in_box=0.04 iou=0.46",
+      "bbox": [
+        250.64992,
+        417.12,
+        314.52000000000004,
+        480.0
+      ],
+      "pan_bbox": [
+        252.0,
+        380.0,
+        328.0,
+        473.0
+      ]
+    },
+    {
+      "image": "000000009914",
+      "type": "class_swap_or_category_swap",
+      "detail": "det=bowl vs pan=wine glass (iou=1.00)",
+      "bbox": [
+        2.160000000000011,
+        154.24991999999997,
+        199.55007999999998,
+        358.10976
+      ],
+      "det_class": "bowl",
+      "pan_class": "wine glass"
+    },
+    {
+      "image": "000000013177",
+      "type": "class_swap_or_category_swap",
+      "detail": "det=motorcycle vs pan=bicycle (iou=1.00)",
+      "bbox": [
+        0.0,
+        14.390113499999986,
+        240.84992,
+        422.2003065
+      ],
+      "det_class": "motorcycle",
+      "pan_class": "bicycle"
+    },
+    {
+      "image": "000000013729",
+      "type": "instance_merge",
+      "detail": "segment person (28082px) phu 2 box cung lop",
+      "bbox": [
+        78.0,
+        90.0,
+        260.0,
+        475.0
+      ]
+    },
+    {
+      "image": "000000016010",
+      "type": "instance_merge",
+      "detail": "segment zebra (2962px) phu 2 box cung lop",
+      "bbox": [
+        359.0,
+        267.0,
+        447.0,
+        325.0
+      ]
+    },
+    {
+      "image": "000000016228",
+      "type": "instance_merge",
+      "detail": "segment person (957px) phu 2 box cung lop",
+      "bbox": [
+        77.0,
+        197.0,
+        109.0,
+        263.0
+      ]
+    },
+    {
+      "image": "000000017182",
+      "type": "instance_merge",
+      "detail": "segment book (3804px) phu 2 box cung lop",
+      "bbox": [
+        241.0,
+        231.0,
+        299.0,
+        306.0
+      ]
+    },
+    {
+      "image": "000000017182",
+      "type": "instance_merge",
+      "detail": "segment book (814px) phu 2 box cung lop",
+      "bbox": [
+        306.0,
+        227.0,
+        334.0,
+        297.0
+      ]
+    },
+    {
+      "image": "000000017182",
+      "type": "bbox_drift",
+      "detail": "book mask_in_box=0.14 iou=0.28",
+      "bbox": [
+        240.50016,
+        230.800284,
+        299.19007999999997,
+        306.07007600000003
+      ],
+      "pan_bbox": [
+        278.0,
+        229.0,
+        311.0,
+        301.0
+      ]
+    },
+    {
+      "image": "000000017182",
+      "type": "bbox_drift",
+      "detail": "book mask_in_box=0.08 iou=0.41",
+      "bbox": [
+        305.45024,
+        226.759964,
+        334.46016,
+        297.21989199999996
+      ],
+      "pan_bbox": [
+        317.0,
+        229.0,
+        346.0,
+        295.0
+      ]
+    },
+    {
+      "image": "000000017627",
+      "type": "instance_merge",
+      "detail": "segment car (3788px) phu 2 box cung lop",
+      "bbox": [
+        481.0,
+        235.0,
+        569.0,
+        285.0
+      ]
+    },
+    {
+      "image": "000000017627",
+      "type": "bbox_drift",
+      "detail": "car mask_in_box=0.43 iou=0.19",
+      "bbox": [
+        479.22976000000006,
+        234.75984000000003,
+        569.43968,
+        285.22992
+      ],
+      "pan_bbox": [
+        460.0,
+        231.0,
+        529.0,
+        255.0
+      ]
+    },
+    {
+      "image": "000000019109",
+      "type": "instance_merge",
+      "detail": "segment motorcycle (1904px) phu 2 box cung lop",
+      "bbox": [
+        560.0,
+        250.0,
+        612.0,
+        325.0
+      ]
+    },
+    {
+      "image": "000000019109",
+      "type": "bbox_drift",
+      "detail": "motorcycle mask_in_box=0.23 iou=0.23",
+      "bbox": [
+        592.04032,
+        269.010198,
+        620.2502400000001,
+        314.530138
+      ],
+      "pan_bbox": [
+        603.0,
+        261.0,
+        639.0,
+        297.0
+      ]
+    },
+    {
+      "image": "000000023023",
+      "type": "missing_box",
+      "detail": "pan=handbag (23505px) khong co box detection",
+      "bbox": [
+        407.0,
+        232.0,
+        575.0,
+        413.0
+      ]
+    },
+    {
+      "image": "000000024243",
+      "type": "instance_merge",
+      "detail": "segment cup (825px) phu 2 box cung lop",
+      "bbox": [
+        0.0,
+        317.0,
+        23.0,
+        359.0
+      ]
+    }
+  ]
+}
