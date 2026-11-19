@@ -1,0 +1,78 @@
+class,count
+person,569
+bicycle,11
+car,55
+motorcycle,21
+airplane,7
+bus,26
+train,6
+truck,15
+boat,14
+traffic light,15
+fire hydrant,3
+stop sign,4
+bench,21
+bird,15
+cat,10
+dog,4
+horse,13
+sheep,13
+cow,9
+elephant,9
+bear,3
+zebra,13
+giraffe,3
+backpack,30
+umbrella,8
+handbag,28
+tie,43
+suitcase,4
+frisbee,10
+skis,5
+snowboard,1
+sports ball,5
+kite,21
+baseball bat,4
+baseball glove,6
+skateboard,8
+surfboard,13
+tennis racket,7
+bottle,47
+wine glass,32
+cup,50
+fork,12
+knife,19
+spoon,13
+bowl,33
+banana,19
+apple,4
+sandwich,14
+orange,1
+broccoli,18
+carrot,19
+hot dog,12
+pizza,14
+donut,1
+cake,2
+chair,81
+couch,12
+potted plant,8
+bed,9
+dining table,30
+toilet,4
+tv,16
+laptop,10
+mouse,5
+remote,14
+keyboard,5
+cell phone,9
+microwave,2
+oven,2
+sink,9
+refrigerator,6
+book,33
+clock,8
+vase,16
+scissors,2
+teddy bear,7
+TOTAL,1650
