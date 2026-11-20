@@ -2,7 +2,7 @@
   <img src="docs/assets/hero.png" alt="Day 10 Lab: Bàn giao dataset và Truy vết" width="100%">
 </p>
 
-# Day 10 Lab — NguyenVietTien
+# Day 10 Lab — NHOM06
 
 <p align="center">
   <img alt="nhóm" src="https://img.shields.io/badge/lab-nhóm%205–6%20người-0b1f3a">
