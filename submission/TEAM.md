@@ -1,7 +1,8 @@
 # Nhóm NguyenVietTien
 
 - Seed luyện tập: 1006
-- Repo: <[<URL repo nhóm>](https://github.com/viettien161204/K5-L23-Day10-NguyenVietTien-Dataset-Release-Handover.git)>
+-Repo: https://github.com/viettien161204/K5-L23-Day10-NHOM06-Dataset-Release-Handover.git
+
 
 | Họ và tên | MSHV | Tài khoản GitHub | Phần chính |
 |---|---|---|---|
