@@ -51,7 +51,8 @@ def load_classes(path: Path) -> dict[int, str]:
             cid, name = line.strip().split(maxsplit=1)
             out[int(cid)] = name
     return out
-
+def loadding_class(path:Path)->dict[int ,str]:
+    return out
 
 def build_v2_and_trace(run_dir: Path) -> None:
     delivery = run_dir / "delivery"
