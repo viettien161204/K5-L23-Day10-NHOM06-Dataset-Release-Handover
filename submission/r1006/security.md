@@ -1,7 +1,8 @@
 # Bảo mật khi làm việc
 
 ## 1. Ca USB: hết giờ, muốn chép lô về nhà làm tiếp
-Không được chép lô `lab250_65cd8821648c` (hoặc bản sửa `lab250_65cd8821648c_v2`) ra USB mang về nhà. Gửi qua email cá nhân hay nhờ người ngoài làm hộ cũng vi phạm bảo mật vì đưa dữ liệu nội bộ ra khỏi hạ tầng kiểm soát của tổ chức và làm lộ cho bên thứ ba không có quyền truy cập. Thay vào đó, phải dừng việc đúng giờ, bàn giao trạng thái công việc trên hệ thống nội bộ, hoặc xin phép làm thêm giờ tại máy công ty / qua kênh truy cập từ xa (VPN, VDI) được cấp phép chính thức.
+Không được chép lô lab250_ac88b506410e (hoặc bản sửa lab250_ac88b506410e_v2) ra USB mang về nhà. Gửi qua email cá nhân hay nhờ người ngoài làm hộ cũng vi phạm bảo mật vì đưa dữ liệu nội bộ ra khỏi hạ tầng kiểm soát của tổ chức và làm lộ cho bên thứ ba không có quyền truy cập. Thay vào đó, phải dừng việc đúng giờ, bàn giao trạng thái công việc trên hệ thống nội bộ, hoặc xin phép làm thêm giờ tại máy công ty / qua kênh truy cập từ xa (VPN, VDI) được cấp phép chính thức.
+
 
 ## 2. Năm việc: được hay không
 - **Mở job được giao trên máy công ty:** **Được**, vì đây là thiết bị và phạm vi công việc được cấp phép đúng vai trò.
