@@ -2,4 +2,8 @@
 
 | # | Ai dùng | Công cụ | Prompt (tóm tắt) | AI sai ở đâu | Nhóm kiểm lại thế nào |
 |---|---|---|---|---|---|
-| 1 | <<>> | <<>> | <<>> | <<>> | <<>> |
+| 1 | Nguyễn Minh Đức | AI Assistant | Viết validator kiểm tra 9 lỗi luật theo docs/DELIVERY.md, chỉ dùng thư viện chuẩn và pngutil.py | Ban đầu dùng ngưỡng IoU bbox cố định nên dễ báo nhầm cặp box tự nhiên và thiếu đếm pixel cho thing_overlap | Chạy thử trên lô sạch runs/clean (--no-faults) thấy 0 lỗi luật và kiểm tra F1 lỗi luật đạt 1.0 bằng score_findings.py |
+| 2 | Lâm Trung Hiếu | AI Assistant | Viết phần đối chiếu detection và panoptic qua pixel mask để sinh candidates.json | Lọc chưa kỹ segment iscrowd và vật quá nhỏ làm hàng đợi ứng viên nhiều nhiễu | Thử trên lô sạch runs/clean, chỉnh ngưỡng diện tích và tỉ lệ phủ pixel để giảm xuống còn 2 ứng viên/50 ảnh |
+| 3 | Phạm Lâm Anh | AI Assistant | Viết công cụ review_viewer.py bằng Pillow để vẽ bbox và viền segment hỗ trợ xem ảnh | Chưa xử lý ảnh nhỏ rõ ràng ở lần đầu, cần phóng to/vẽ nhãn dễ nhìn hơn | Mở trực tiếp các ảnh ứng viên, tự mắt xem và ghi verdict confirmed/rejected kèm mô tả vào review_log.csv |
+| 4 | Nguyễn Viết Tiến | AI Assistant | Tổng hợp số liệu luyện tập thực tế vào REPORT.md và rà soát file nộp trước đề ẩn | AI không tự có số liệu nếu chưa chạy script đo thực tế; cần tự đối chiếu lại release_id giữa security.md và lineage.jsonl | Chạy lại score_findings.py, runs/clean, lineage.py impact và sửa lại release_id trong security.md cho khớp |
+| 5 | Phạm Thanh Tùng | AI Assistant | Viết script build_handover.py đóng gói lô v2, xử lý lineage và truy vết trace.json | Cần chú ý ảnh chỉ lỗi panoptic không đưa vào rework_queue.csv mà giữ lại v2 và ghi chú báo team panoptic | Chạy check_handover.py kiểm tra toàn bộ quy tắc H1-H16 và chạy score_findings.py để kiểm F1 truy vết đạt 1.0 |
